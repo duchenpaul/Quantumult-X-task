@@ -1,0 +1,13 @@
+{
+    "name": "Chen's tasks",
+    "task": [
+        {
+            "config": "0 0 * * * https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-task.js, img-url=https://raw.githubusercontent.com/crossutility/Quantumult-X/master/quantumult-x.png, tag=Sample, enabled=false",
+            "addons": "https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-import-rewrite.snippet"
+        },
+        {
+            "config": "0 0 * * * https://raw.githubusercontent.com/duchenpaul/Quantumult-X-task/master/DVR-start-rtsp.js, img-url=https://raw.githubusercontent.com/crossutility/Quantumult-X/master/quantumult-x.png, tag=DVR start rtsp, enabled=true"
+        }
+    ],
+    "description": "This is a Chen's tasks."
+}
