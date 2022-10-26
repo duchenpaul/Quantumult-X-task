@@ -7,7 +7,7 @@ const headers = {
   Connection: `keep-alive`,
   "Accept-Language": `zh-CN,zh-Hans;q=0.9`,
   "Accept-Encoding": `gzip, deflate`,
-  Accept: `*/*`
+  Accept: `*/*`,
 };
 const body = ``;
 
@@ -15,17 +15,17 @@ const myRequest = {
   url: url,
   method: method,
   headers: headers,
-  body: body
+  body: body,
 };
 
 $task.fetch(myRequest).then(
-  response => {
+  (response) => {
     // response.statusCode, response.headers, response.body
     console.log(response.body);
     $notify("Title", response.statusCode, response.body); // Success!
     $done();
   },
-  reason => {
+  (reason) => {
     // reason.error
     $notify("Title", response.statusCode, reason.error); // Error!
     $done();
