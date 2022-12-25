@@ -9,5 +9,5 @@
             "config": "0 0 * * * https://raw.githubusercontent.com/duchenpaul/Quantumult-X-task/master/DVR-start-rtsp.js, img-url=https://raw.githubusercontent.com/crossutility/Quantumult-X/master/quantumult-x.png, tag=DVR start rtsp, enabled=true"
         }
     ],
-    "description": "This is a Chen's tasks."
+    "description": "src: https://github.com/duchenpaul/Quantumult-X-task/blob/master/gallery.json"
 }
